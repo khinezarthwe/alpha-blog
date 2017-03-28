@@ -2,4 +2,10 @@
 <div class="row">
 <h1 align="center">Listing all Articles</h1>
 </div>
+<div align="center">
+  <%= will_paginate @articles %>
+</div>
 <%= render 'article' , obj: @articles %>
+<div align="center">
+  <%= will_paginate @articles %>
+</div>
